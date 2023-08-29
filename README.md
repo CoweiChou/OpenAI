@@ -23,6 +23,9 @@ OpenAI is an artificial intelligence research laboratory and company dedicated t
 
 ##  Model demo
 ### GPT-3.5 / text-davinci-003
-以 text-davinci-003 模型為例。這個模型可以根據一個給定的提示（prompt）來生成相關的文本。
+以 `text-davinci-003` 模型為例。這個模型可以根據一個給定的提示（prompt）來生成相關的文本。
 `model` 參數指定了使用的模型，`prompt` 參數是生成文本的提示，`max_tokens` 控制生成文本的最大長度，`top_p`、`frequency_penalty` 和 `presence_penalty` 則是生成文本的一些設定。
+
+Taking the `text-davinci-003` model as an example. This model can generate relevant text based on a given prompt.
+The `model` parameter specifies the model being used, the `prompt` parameter is the prompt for generating text, `max_tokens` controls the maximum length of the generated text, and `top_p`, `frequency_penalty`, and `presence_penalty` are some settings for generating text.
 
